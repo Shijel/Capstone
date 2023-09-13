@@ -1,0 +1,59 @@
+body{
+    background-color: #FFD700;
+    background-repeat: no-repeat;
+    display: auto;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    background-image: url("bg.jpg"); 
+    background-position: center;
+    background-size:70% 100%;
+
+}
+
+.nav{
+    box-shadow:orange;
+
+
+}
+.navbar .navbar-brand{
+    color:red;
+
+
+}
+.navbar .container-fluid .navbar-header .navbar-toggle .icon-bar{
+    color:yellow;
+
+}
+.navbar{
+    box-shadow: 0 0 10px red;
+    z-index: 999;
+}
+.Navbar-header{
+     color: yellow;
+}
+
+.ul{
+    color: yellow;
+}
+
+footer{
+    background-color:#2A3439;
+    color: white;
+    height: 18vh;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    position:relative;top:460px;
+    margin:auto;
+    padding: 20px 0;
+    padding-right: 10px;
+
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
