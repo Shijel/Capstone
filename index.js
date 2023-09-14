@@ -1,12 +1,10 @@
 import{initializeApp} from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js"
-import {add} from "./functions.js"
 import {getDatabase, ref, push} from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"
 
 const appSettings = {
   databaseURL: "https://capstone-370b9-default-rtdb.asia-southeast1.firebasedatabase.app/"
 }
 
-console.log (add(2,3))
 const app = initializeApp(appSettings)
 const database = getDatabase(app)
 
