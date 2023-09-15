@@ -11,9 +11,23 @@ const database = getDatabase(app)
 const pizzaDB = ref (database,"Pizza")
 const inputFieldEl = document.getElementById("input-field")
 const addButtonEl = document.getElementById("add-button")
+const cartListEl = document.getElementById("cart-item")
+
+let input = document.querySelector('input');
+input.addEventListener('keyup', (e) => {
+    if(e.keyCode === 13) {
+      let inputValue = inputFieldEl.value
+      console.log(`${inputValue} added to database`)
+      push(pizzaDB, inputValue)
+      inputFieldEl.value=""
+      cartListEl.innerHTML += `<li>${inputValue}</li>`
+    }
+})
 
 addButtonEl.addEventListener("click",function(){
 let inputValue = inputFieldEl.value
- console.log('${inputValue} added to database')
+ console.log(`${inputValue} added to database`)
  push(pizzaDB, inputValue)
 })
+
+`cartListEl.innerHTML += <li>${inputValue}</li>`

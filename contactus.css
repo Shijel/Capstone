@@ -1,15 +1,23 @@
 body{
     background-color: #FFD700;
     background-repeat: no-repeat;
-    display: auto;
+    display: flex;
     width: 100vw;
     height: 100vh;
     margin: 0 auto;
     background-image: url("bg.jpg"); 
     background-position: center;
     background-size:70% 100%;
-
+    
 }
+
+ /* h1 { 
+    color: white;
+    justify-content: center;
+    font-size: 15px;
+
+
+ }  */
 
 .nav{
     box-shadow:orange;
@@ -81,3 +89,14 @@ button {
     position: relative;top:5px;
 
 }
+
+article {
+
+    box-sizing: border-box;
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
