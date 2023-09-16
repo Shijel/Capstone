@@ -28,6 +28,8 @@ addButtonEl.addEventListener("click",function(){
 let inputValue = inputFieldEl.value
  console.log(`${inputValue} added to database`)
  push(pizzaDB, inputValue)
+ inputFieldEl.value=""
+ 
 })
 
 `cartListEl.innerHTML += <li>${inputValue}</li>`
