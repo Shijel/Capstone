@@ -1,0 +1,25 @@
+body{
+    background-image: url("pizzapics/pizzabg1.jpg"); 
+    background-repeat: no-repeat;
+    background-size:100% 90%;
+    display: inline-block;
+
+}
+
+.menu_list{
+    display: inline-block;
+}
+.Pizza_Container_Box{
+    box-shadow: 0 0 10px red;
+    z-index: 999;
+}
+
+
+.pizza_image img{
+    width: 300px;
+    height: auto;
+
+}
+h3{
+    color: white;
+}
