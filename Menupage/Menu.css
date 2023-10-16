@@ -1,17 +1,21 @@
 body{
     background-image: url("pizzapics/pizzabg1.jpg"); 
     background-repeat: no-repeat;
-    background-size:100% 90%;
+    background-size:100% 20%;
     display: inline-block;
 
-}
 
+}
 .menu_list{
-    display: inline-block;
+    padding-left: 20px;
+    align-items: center;
+
 }
+
 .Pizza_Container_Box{
     box-shadow: 0 0 10px red;
     z-index: 999;
+    justify-items: center;
 }
 
 
@@ -19,7 +23,12 @@ body{
     width: 300px;
     height: auto;
 
+
 }
 h3{
     color: white;
+}
+
+.pizza_image:hover{
+	transform: scale(1.3);
 }
