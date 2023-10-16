@@ -1,100 +1,239 @@
 <!DOCTYPE html>
-<head> 
-  <title>Maczela's Pizza</title>
-  <meta charset="utf-8">
-  <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <script src="Menu.js" type="module"></script>
-  <link rel="stylesheet" href="Menu.css">
+<html>
+   
+<head>
+    <title>Menu</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/e8fa2e31b4.js" crossorigin="anonymous"></script>
+    <link  rel="stylesheet" href="Menu.css">
 
-  <link rel="shortcut icon" type="image/png" href="favicon.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+      
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+          <a class="navbar-brand" href="https://ewixxx.github.io/MaczelaPizza/">Maczela's Pizza</a>
+      
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <input placeholder="Search" id="search" name="searchBar" type="text">
+              <li><a href="https://ewixxx.github.io/MaczelaPizza/" style="color:yellow">Home</a></li>
+              
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:yellow">Social Media <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="https://www.facebook.com/maczelaspizzacalumpangmarikina">Facebook</a></li>
+                  <li><a href="#">Instagram</a></li>
+                  <li><a href="#">Twitter</a></li>
+                </ul>
+              </li>
+              <li><a href="" style="color:yellow">Menu</a></li>
+              <li><a href="../ContactUs/index.html" style="color:yellow">Contact Us</a></li>
+            </ul>
+              
+            <ul class="nav navbar-nav navbar-right">
 
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  </head>
+            </ul>
+          </div>
+          
+        </div>
+        
+      </nav>
+</head>
 
 <body>
 
+<div class="header">
+  <header>
+  <h1>Menu</h1> 
+</header>
+<div class="Pizza-sizes">
+  <ul>
+    <li><a href="#section1">Medium Pizza 10"</a></li>
+    <li><a href="#section2">Large Pizza 12"</a></li>
+    <li><a href="#section3">Super Large Pizza 20"</a></li>
+</ul>
+</div>
+</div>
+
+
   
-
-    <div class="menu-list" id="menu-list">
-        <div class="pizza-list" id = "pizza-list">
-
-            <div class="Pizza_Container_Box">
-                <h3>Bacon Mushroom</h3>
-                <div class="pizza_image"><img src="pizzapics/baconmushroom.jpg"></div>
-
-                <div class="Price_List">$$$</div>
-                <div class="Item_Status" style="color:#36FF00">Available</div>
-                <div class="Available_Size">Small, Medium, Large, Extra Large</div>
-            </div>
-
-            <div class="Pizza_Container_Box">
-                <h3>Pizza Combo</h3>
-                <div class="pizza_image"><img src="pizzapics/baconmushroom.jpg"></div>
-
-                <div class="Price_List">$$$</div>
-                <div class="Item_Status" style="color:#36FF00">Available</div>
-                <div class="Available_Size"></div>
-            </div>
-
-            <div class="Pizza_Container_Box">
-                <h3>Bacon Mushroom</h3>
-                <div class="pizza_image"><img src="pizzapics/baconmushroom.jpg"></div>
-
-                <div class="Price_List">$$$</div>
-                <div class="Item_Status" style="color:#36FF00">Available</div>
-                <div class="Available_Size"></div>
-            </div>
-
-            <div class="Pizza_Container_Box">
-                <h3>Bacon Mushroom</h3>
-                <div class="pizza_image"><img src="pizzapics/baconmushroom.jpg"></div>
-
-                <div class="Price_List">$$$</div>
-                <div class="Item_Status" style="color:#36FF00">Available</div>
-                <div class="Available_Size"></div>
-            </div>
-
-            <div class="Pizza_Container_Box">
-                <h3>Bacon Mushroom</h3>
-                <div class="pizza_image"><img src="pizzapics/baconmushroom.jpg"></div>
-
-                <div class="Price_List">$$$</div>
-                <div class="Item_Status" style="color:#36FF00">Available</div>
-                <div class="Available_Size"></div>
-            </div>
-
-
-            <div class="Pizza_Container_Box">
-                <h3>Bacon Mushroom</h3>
-                <div class="pizza_image"><img src="pizzapics/baconmushroom.jpg"></div>
-
-                <div class="Price_List">$$$</div>
-                <div class="Item_Status" style="color:#36FF00">Available</div>
-                <div class="Available_Size"></div>
-            </div>
-
-
-
-
-
-        </div>
-    </div>
+  <center>
+    <div class="sizes-medium" id="section1">
+    <div id="menu">
+      <h1>Medium 10"</h1>
+      <!-- Sample menu items -->
+      <div class="menu-item" data-name="Bacon Mushroom 10" data-price="5.00" data-size="medium">
+          <img src="1.jpg" alt="Bacon Mushroom">
+          <h3>Bacon Mushroom</h3>
+          <p>$5.00</p>
+          <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="menu-item" data-name="Pizza Combo 10" data-price="8.00" data-size="medium">
+          <img src="2.jpg" alt="Pizza">
+          <h3>Pizza Combo</h3>
+          <p>$8.00</p>
+          <button class="add-to-cart">Add to Cart</button>
+      </div>
     
+      <div class="menu-item" data-name="Baked Pizza 10" data-price="8.00" data-size="medium">
+        <img src="3.jpg" alt="Pizza">
+        <h3>Baked Pizza</h3>
+        <p>$8.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
 
+    <div class="menu-item" data-name="The Circle of Life 10" data-price="8.00" data-size="medium">
+      <img src="4.jpg" alt="Pizza">
+      <h3>The Circle of Life</h3>
+      <p>$8.00</p>
+      <button class="add-to-cart">Add to Cart</button>
+  </div>
+
+  <div class="menu-item" data-name="All Time Favorite 10" data-price="8.00" data-size="medium">
+    <img src="5.jpg" alt="Pizza">
+    <h3>All Time Favorite</h3>
+    <p>$8.00</p>
+    <button class="add-to-cart">Add to Cart</button>
+</div>
+
+<div class="menu-item" data-name="Mac Duo 10" data-price="8.00" data-size="medium">
+  <img src="6.jpg" alt="Pizza">
+  <h3>Mac Duo</h3>
+  <p>$8.00</p>
+  <button class="add-to-cart">Add to Cart</button>
+</div>
+</div>
+
+  </div>
+
+  <div class="sizes-large" id="section2">
+    <h1>Large 12"</h1>
+    <div id="menu">
+      <!-- Sample menu items -->
+      <div class="menu-item" data-name="Bacon Mushroom 12" data-price="5.00" data-size="large">
+          <img src="1.jpg" alt="Bacon Mushroom">
+          <h3>Bacon Mushroom</h3>
+          <p>$5.00</p>
+          <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="menu-item" data-name="Pizza Combo 12" data-price="8.00" data-size="large">
+          <img src="2.jpg" alt="Pizza">
+          <h3>Pizza Combo</h3>
+          <p>$8.00</p>
+          <button class="add-to-cart">Add to Cart</button>
+      </div>
+    
+      <div class="menu-item" data-name="Baked Pizza 12" data-price="8.00" data-size="large">
+        <img src="3.jpg" alt="Pizza">
+        <h3>Baked Pizza</h3>
+        <p>$8.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+
+    <div class="menu-item" data-name="The Circle of Life 12" data-price="8.00" data-size="large">
+      <img src="4.jpg" alt="Pizza">
+      <h3>The Circle of Life</h3>
+      <p>$8.00</p>
+      <button class="add-to-cart">Add to Cart</button>
+  </div>
+
+  <div class="menu-item" data-name="All Time Favorite 12" data-price="8.00" data-size="large">
+    <img src="5.jpg" alt="Pizza">
+    <h3>All Time Favorite</h3>
+    <p>$8.00</p>
+    <button class="add-to-cart">Add to Cart</button>
+</div>
+
+<div class="menu-item" data-name="Mac Duo 12" data-price="8.00" data-size="large">
+  <img src="6.jpg" alt="Pizza">
+  <h3>Mac Duo</h3>
+  <p>$8.00</p>
+  <button class="add-to-cart">Add to Cart</button>
+</div>
+</div>
+    </div>
+
+
+    <div class="sizes-super-large" id="section3">
+      <h1>Super Large 20"</h1>
+      <div id="menu">
+        <!-- Sample menu items -->
+        <div class="menu-item" data-name="Bacon Mushroom 20" data-price="5.00" data-size="super-large">
+            <img src="1.jpg" alt="Bacon Mushroom">
+            <h3>Bacon Mushroom</h3>
+            <p>$5.00</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="menu-item" data-name="Pizza Combo 20" data-price="8.00" data-size="super-large">
+            <img src="2.jpg" alt="Pizza">
+            <h3>Pizza Combo</h3>
+            <p>$8.00</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+      
+        <div class="menu-item" data-name="Baked Pizza 20" data-price="8.00" data-size="super-large">
+          <img src="3.jpg" alt="Pizza">
+          <h3>Baked Pizza</h3>
+          <p>$8.00</p>
+          <button class="add-to-cart">Add to Cart</button>
+      </div>
+  
+      <div class="menu-item" data-name="The Circle of Life 20" data-price="8.00" data-size="super-large">
+        <img src="4.jpg" alt="Pizza">
+        <h3>The Circle of Life</h3>
+        <p>$8.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+  
+    <div class="menu-item" data-name="All Time Favorite 20" data-price="8.00" data-size="super-large">
+      <img src="5.jpg" alt="Pizza">
+      <h3>All Time Favorite</h3>
+      <p>$8.00</p>
+      <button class="add-to-cart">Add to Cart</button>
+  </div>
+  
+  <div class="menu-item" data-name="Mac Duo 20" data-price="8.00" data-size="super-large">
+    <img src="6.jpg" alt="Pizza">
+    <h3>Mac Duo</h3>
+    <p>$8.00</p>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+  </div>
+    </div>
+</center>
+
+
+
+<h1>Your Cart</h1>
+  <div id="cart-container">
+      <ul id="cart-items">
+
+      </ul>
+  </div>
+<script src="Menu.js"></script>
 </body>
-
 </html>
