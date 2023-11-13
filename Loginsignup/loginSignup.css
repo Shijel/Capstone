@@ -10,7 +10,6 @@
     background-size: cover;
     position:absolute;
 }
-
 .form-box{
     width: 380px;
     height: 480px;
@@ -18,7 +17,6 @@
     margin: 6% auto;
     background: #fff;
     padding: 5px;
-
 }
 .button-box{
     width: 220px;
@@ -26,7 +24,6 @@
     position: relative;
     box-shadow: 0 0 20px 9px #ff61241f;
     border-radius:30px;
-
 }
 .toggle-button{
     padding: 10px 30px;
