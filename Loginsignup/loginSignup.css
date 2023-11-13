@@ -1,8 +1,10 @@
 .Pizza{
-    margin: 0vh;
-    background-color: white;
-    background-image: url("bgimage/bg.jpg");
-    margin-bottom: 50px;
+    height: 100%;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.4)(rgba(0,0,0,0.4)) url("bgimage/bg.jpg");
+    background-size: cover;
+    position: absolute;
+    
 }
 .form-box{
     width: 380px;
